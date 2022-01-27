@@ -1,0 +1,669 @@
+p,
+a {
+    font-family: roboto, sans-serif
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.container {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/* NAVBAR */
+.navbar {
+    padding: 1rem 0;
+    background-color: #fff;
+}
+
+.navbar .container .navbar-brand {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.5rem;
+}
+
+.navbar .container .icon-search .fas {
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+.navbar .container .icon-search .fas:hover {
+    color: #007bff;
+}
+
+.navbar.show {
+    animation: showTheNavbar 1s forwards;
+    position: fixed;
+    left: 0;
+    right: 0;
+    transition: .5s;
+    box-shadow: rgba(0, 69, 148, 0.2) 0px 2px 8px 0px;
+    z-index: 1;
+}
+
+/* AKHIR NAVBAR */
+
+
+/* JUMBOTRON */
+.jumbotron {
+    height: 70vh;
+    background-image: linear-gradient(105.3deg, rgba(30, 39, 107, 1) 21.8%, rgba(77, 118, 221, 1) 100.2%);
+    color: #fff;
+}
+
+.jumbotron .container {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.jumbotron .container h1 {
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+}
+
+.jumbotron .container .lead {
+    text-shadow: 1px 1px 1px #000;
+}
+
+.jumbotron .container .title-header .button-started .btn {
+    padding: .5rem 1.5rem;
+    transition: .5s;
+    background-color: rgb(0, 183, 255);
+    color: #fff;
+    border: 0;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+}
+
+.jumbotron .container .title-header .button-started .btn:active {
+    background-color: #fff;
+    color: rgba(30, 39, 107, 1);
+}
+
+.jumbotron .container .my-sosmed {
+    margin-top: 7rem;
+}
+
+.jumbotron .container .my-sosmed a {
+    margin: 0 .5rem;
+    font-size: 1.3rem;
+    color: #fff;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+}
+
+.jumbotron .container .my-sosmed a:active {
+    color: rgb(0, 183, 255);
+}
+
+.title-header.animationHeader {
+    animation: titleHeader 1s forwards;
+}
+
+.my-sosmed.animationSosmed {
+    animation: sosmed 1s forwards;
+}
+
+/* AKHIR JUMBOTRON */
+
+
+/* ABOUT US */
+.about-me .container {
+    text-align: center;
+    margin-top: 4.3rem;
+}
+
+.about-me .container p {
+    padding: 0 1.2rem;
+    text-align: center;
+    width: 100%;
+    margin: 2rem auto;
+    opacity: 0;
+}
+
+.about-me .container .title-about-me .line-about-me {
+    height: .3rem;
+    width: 4rem;
+    background-color: #007bff;
+    margin: 0 auto;
+}
+
+.about-me .container p.showP {
+    animation: pAboutMe 1s forwards;
+}
+
+.about-me .container .button-about-me {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.about-me .container .button-about-me .button-cv {
+    opacity: 0;
+}
+
+.about-me .container .button-about-me .button-cv .btn {
+    background-color: rgba(30, 39, 107, 1);
+    border: 0;
+}
+
+.about-me .container .button-about-me .button-cv .btn:active {
+    background-color: #007bff;
+}
+
+.about-me .container .button-about-me .button-cv.animationButtonCV {
+    animation: buttonCV 1s forwards;
+}
+
+.about-me .container .button-about-me .button-contact-me .btn:active {
+    background-color: #007bff;
+}
+
+.about-me .container .button-about-me .button-contact-me {
+    opacity: 0;
+}
+
+.about-me .container .button-about-me .button-contact-me.animationButtonContactMe {
+    animation: buttonContactMe 1s forwards;
+}
+
+.about-me .container .title-about-me {
+    opacity: 0;
+}
+
+.about-me .container .title-about-me.animation-title-about-me {
+    animation: titleAboutMe 1s forwards;
+}
+
+/* AKHIR ABOUT US */
+
+
+/* SKILLS */
+.my-skills {
+    padding: 4rem 1.2rem;
+    background-color: aliceblue;
+    margin-top: 4.6rem;
+}
+
+.my-skills .title-my-skills {
+    opacity: 0;
+}
+
+.my-skills .title-my-skills h2 {
+    text-align: center;
+}
+
+.my-skills .title-my-skills .line-skills {
+    height: .3rem;
+    width: 3rem;
+    background-color: #007bff;
+    margin: 0 auto;
+}
+
+.my-skills .title-my-skills.animation-title-skills {
+    animation: titleMyServices 1s forwards;
+}
+
+.my-skills .container .row {
+    text-align: center;
+    margin-top: 4.3rem;
+}
+
+.my-skills .container .row .col-md-4 .video-editting .icon .fas,
+.my-skills .container .row .col-md-4 .web-designer .icon .fab {
+    margin-top: 1rem;
+}
+
+.my-skills .container .row .col-md-4 .graphic-designer .icon .fas,
+.my-skills .container .row .col-md-4 .video-editting .icon .fas,
+.my-skills .container .row .col-md-4 .web-designer .icon .fab {
+    font-size: 1.5rem;
+    padding: 1rem;
+    background-color: rgba(30, 39, 107, 1);
+    border-radius: 50%;
+    color: #fff;
+}
+
+.my-skills .container .row .col-md-4 .graphic-designer .title-graphic-design,
+.my-skills .container .row .col-md-4 .video-editting .title-video-editting,
+.my-skills .container .row .col-md-4 .web-designer .title-web-designer {
+    margin-top: 1.5rem;
+}
+
+.my-skills .container .row .col-md-4 .graphic-designer,
+.my-skills .container .row .col-md-4 .video-editting,
+.my-skills .container .row .col-md-4 .web-designer {
+    opacity: 0;
+}
+
+.my-skills .container .row .col-md-4 .graphic-designer.animation-graphic-design,
+.my-skills .container .row .col-md-4 .video-editting.animation-video-editting,
+.my-skills .container .row .col-md-4 .web-designer.animation-web-design {
+    animation: graphicDesign 1s forwards;
+}
+
+/* AKHIR SKILLS */
+
+
+/* PROJECTS */
+.my-projects .container {
+    padding: 0 1.2rem;
+}
+
+.my-projects .container .title-my-projects {
+    padding: 4rem 0;
+    text-align: center;
+    opacity: 0;
+}
+
+.my-projects .container .title-my-projects.animation-title-my-projects {
+    animation: titleProjects 1s forwards;
+}
+
+.my-projects .container .title-my-projects .line-my-projects {
+    height: .3rem;
+    width: 4rem;
+    background-color: #007bff;
+    margin: 0 auto;
+}
+
+.my-projects .container .the-projects .project-1,
+.my-projects .container .the-projects .project-2,
+.my-projects .container .the-projects .project-3,
+.my-projects .container .the-projects .project-4 {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #007bff;
+    overflow: hidden;
+    border-radius: 1rem;
+    opacity: 0;
+}
+
+.my-projects .container .the-projects .project-1 img,
+.my-projects .container .the-projects .project-2 img,
+.my-projects .container .the-projects .project-3 img,
+.my-projects .container .the-projects .project-4 img {
+    transition: .5s;
+    cursor: pointer;
+}
+
+.my-projects .container .the-projects .project-1 img:hover,
+.my-projects .container .the-projects .project-2 img:hover,
+.my-projects .container .the-projects .project-3 img:hover,
+.my-projects .container .the-projects .project-4 img:hover {
+    transform: scale(1.1);
+}
+
+.my-projects .container .the-projects .project-2,
+.my-projects .container .the-projects .project-3,
+.my-projects .container .the-projects .project-4 {
+    margin-top: 4.3rem;
+}
+
+.my-projects .container .the-projects .description-project-1,
+.my-projects .container .the-projects .description-project-2,
+.my-projects .container .the-projects .description-project-3,
+.my-projects .container .the-projects .description-project-4 {
+    display: flex;
+    gap: 1.5rem;
+    margin-top: 1.3rem;
+    margin-left: 0;
+}
+
+.my-projects .container .the-projects .description-project-1 .visit-website-project-1,
+.my-projects .container .the-projects .description-project-1 .view-study-case-project-1,
+.my-projects .container .the-projects .description-project-2 .visit-website-project-2,
+.my-projects .container .the-projects .description-project-2 .view-study-case-project-2,
+.my-projects .container .the-projects .description-project-3 .visit-website-project-3,
+.my-projects .container .the-projects .description-project-3 .view-study-case-project-3,
+.my-projects .container .the-projects .description-project-4 .visit-website-project-4,
+.my-projects .container .the-projects .description-project-4 .view-study-case-project-4 {
+    display: flex;
+    gap: .7rem;
+}
+
+.my-projects .container .the-projects .project-1.animtion-project-1,
+.my-projects .container .the-projects .project-2.animtion-project-2,
+.my-projects .container .the-projects .project-3.animtion-project-3,
+.my-projects .container .the-projects .project-4.animtion-project-4 {
+    animation: project 1s forwards;
+}
+
+/* AKHIR PROJECTS */
+
+
+/* CALL TO ACTION */
+
+.call-to-action .container {
+    background-color: aliceblue;
+    margin-top: 4.3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 2.5rem;
+    border-radius: 1rem;
+    box-shadow: rgba(0, 69, 148, 0.2) 0px 2px 8px 0px;
+}
+
+.call-to-action .container .buttons {
+    margin-top: 1rem;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.call-to-action .container .buttons .button-email-me .btn {
+    background-color: #007bff;
+    border: 1px solid #007bff;
+}
+
+.call-to-action .container .buttons .button-email-me .btn:active {
+    background-color: rgba(30, 39, 107, 1);
+    border: 1px solid rgba(30, 39, 107, 1);
+}
+
+/* AKHIR CALL TO ACTION */
+
+
+/* TESTIMONIALS */
+.testimonials .container {
+    margin-top: 4.3rem;
+}
+
+.testimonials .container .title-testimonials {
+    text-align: center;
+}
+
+.testimonials .container .title-testimonials .line-testimonials {
+    height: .3rem;
+    width: 4rem;
+    background-color: #007bff;
+    margin: 0 auto;
+}
+
+.testimonials .container .swiper {
+    margin-top: 4.3rem;
+}
+
+.testimonials .container .swiper .swiper-wrapper .swiper-slide {
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonials .container .swiper .swiper-wrapper .swiper-slide .testimonials-1 .photo,
+.testimonials .container .swiper .swiper-wrapper .swiper-slide .testimonials-2 .photo,
+.testimonials .container .swiper .swiper-wrapper .swiper-slide .testimonials-3 .photo,
+.testimonials .container .swiper .swiper-wrapper .swiper-slide .testimonials-4 .photo {
+    width: 8rem;
+    height: 8rem;
+    margin: 0 auto;
+    border-radius: 50%;
+    background-color: #007bff;
+}
+
+.testimonials .container .swiper .swiper-wrapper .swiper-slide .testimonials-1 .photo {
+    background-image: url('Assets/elvis.jpg');
+    background-size: cover;
+}
+
+.testimonials .container .swiper .swiper-wrapper .swiper-slide .testimonials-2 .photo {
+    background-image: url('Assets/joe.jpg');
+    background-size: cover;
+}
+
+.testimonials .container .swiper .swiper-wrapper .swiper-slide .testimonials-3 .photo {
+    background-image: url('Assets/bulan.jpg');
+    background-size: cover;
+}
+
+.testimonials .container .swiper .swiper-wrapper .swiper-slide .testimonials-4 .photo {
+    background-image: url('Assets/eric.jpg');
+    background-size: cover;
+}
+
+.testimonials .container .swiper .swiper-wrapper .swiper-slide .testimonials-1 .description p,
+.testimonials .container .swiper .swiper-wrapper .swiper-slide .testimonials-2 .description p,
+.testimonials .container .swiper .swiper-wrapper .swiper-slide .testimonials-3 .description p,
+.testimonials .container .swiper .swiper-wrapper .swiper-slide .testimonials-4 .description p {
+    margin-top: 2rem;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+.testimonials .container .swiper .swiper-wrapper .swiper-slide .testimonials-1 .description h5,
+.testimonials .container .swiper .swiper-wrapper .swiper-slide .testimonials-2 .description h5,
+.testimonials .container .swiper .swiper-wrapper .swiper-slide .testimonials-3 .description h5,
+.testimonials .container .swiper .swiper-wrapper .swiper-slide .testimonials-4 .description h5 {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 1rem;
+}
+
+
+.testimonials .container .swiper .swiper-wrapper .swiper-slide .testimonials-1 .description .elvis,
+.testimonials .container .swiper .swiper-wrapper .swiper-slide .testimonials-2 .description .joe,
+.testimonials .container .swiper .swiper-wrapper .swiper-slide .testimonials-3 .description .bulan,
+.testimonials .container .swiper .swiper-wrapper .swiper-slide .testimonials-4 .description .eric {
+    font-weight: 700;
+    color: #bdbdbd;
+    margin-top: 0rem;
+}
+
+.swiper-pagination {
+    margin-top: 2.5rem !important;
+    position: relative !important;
+    z-index: 1 !important;
+}
+
+.swiper-button-next::after {
+    transform: scale(.8);
+    padding: 1rem;
+    margin-top: -3rem;
+    display: none;
+}
+
+.swiper-button-prev::after {
+    transform: scale(.8);
+    padding: 1rem;
+    margin-top: -3rem;
+    display: none;
+}
+
+/* AKHIR TESTIMONIALS */
+
+
+/* FOOTER */
+.footer {
+    background-color: rgba(30, 39, 107, 1);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    margin-top: 4.3rem;
+    padding: .5rem;
+}
+
+.footer .container .isi-footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.footer .container .isi-footer .sosmed a {
+    font-size: 1.3rem;
+    color: #fff;
+}
+
+.footer .container .isi-footer .sosmed a:hover {
+    color: #007bff;
+}
+
+.footer .container .isi-footer .sosmed .fa-twitter,
+.footer .container .isi-footer .sosmed .fa-instagram,
+.footer .container .isi-footer .sosmed .fa-linkedin-in,
+.footer .container .isi-footer .sosmed .fa-whatsapp {
+    margin-right: 1rem;
+}
+
+/* AKHIR FOOTER */
+
+
+/* ADVERTISE */
+.pop-up {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    z-index: 2;
+    transition: .3s;
+    display: none;
+}
+
+.pop-up .advertisement {
+    width: 26rem;
+    height: 16rem;
+    margin: 15rem auto;
+    display: flex;
+    position: relative;
+}
+
+.pop-up .advertisement #carouselExampleFade .carousel-inner .carousel-item img {
+    border-radius: 20px;
+}
+
+.pop-up .advertisement #carouselExampleFade button {
+    transform: scale(1.5);
+}
+
+.pop-up .advertisement.show {
+    animation: showPopup 1s forwards;
+}
+
+h1 {
+    margin: auto;
+}
+
+.pop-up .close {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 100%;
+    background-color: #fff;
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    border: 5px solid #fff;
+    display: flex;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.pop-up .close .fas {
+    font-size: 2rem;
+    margin: auto;
+    cursor: pointer;
+}
+
+/* AKHIR ADVERTISE */
+
+
+/* SEARCH */
+.background-search {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: 2;
+    transform: translateY(-100rem);
+}
+
+.background-search .container input {
+    margin: 20rem auto;
+    background-color: rgba(0, 0, 0, 0);
+    border: 0;
+    border-bottom: 2px solid #007bff;
+    width: 70%;
+    color: #fff;
+    transform: scale(1.2);
+    border-radius: 0;
+}
+
+.background-search .container input:focus {
+    box-shadow: 0px 0px 0px;
+}
+
+.background-search .container input[placeholder] {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.background-search .close {
+    margin: 2rem 2.5rem;
+}
+
+.background-search .close .fas {
+    color: rgb(255, 255, 255, 1);
+    font-size: 2rem;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.background-search .close .fas:hover {
+    transform: rotate(360deg);
+}
+
+.background-search.animation-search {
+    animation: search .8s  cubic-bezier(0.34, 0.02, 0, 0.98) forwards;
+}
+
+
+.background-search.animation-close {
+    animation: close 1s  cubic-bezier(0.34, 0.02, 0, 0.98) forwards;
+}
+
+/* AKHIR SEARCH */
+
+
+/* MODAL PROJECTS FOR VISIT WEB */
+.background-modal {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    z-index: 2;
+    display: none;
+}
+
+.background-modal .container .row .col .background-modal-2 {
+    width: 25rem;
+    background-color: #fff;
+    border-radius: 12px;
+    margin-top: 10rem;
+    padding: 1.2rem;
+    text-align: center;
+}
+
+
+.background-modal .container .row .col .background-modal-2 p {
+    margin-top: 1.5rem;
+}
+
+.background-modal .container .row .col .background-modal-2 .button-oke {
+    margin-top: 1.5rem ;
+}
+
+.background-modal .container .row .col .background-modal-2 .button-oke .btn {
+    width: 100%;
+    padding: .8rem 0;
+}
+
+.background-modal.animation-background-modal {
+    animation: showModal .5s forwards;
+}
+/* AKHIR MODAL PROJECTS FOR VISIT WEB */

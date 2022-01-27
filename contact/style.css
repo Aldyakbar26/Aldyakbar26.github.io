@@ -1,0 +1,140 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Source Sans Pro', sans-serif;
+    ;
+}
+
+p,
+a {
+    font-family: roboto, sans-serif;
+}
+
+.container {
+    padding: 0;
+}
+
+
+/* CONTACT ME */
+.contact-me {
+    background-image: linear-gradient(105.3deg, rgba(30, 39, 107, 1) 21.8%, rgba(77, 118, 221, 1) 100.2%);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 1.2rem;
+}
+
+.contact-me .container .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.contact-me .container .content .text h1 {
+    color: #fff;
+    font-size: 3rem;
+    text-align: center;
+    margin: auto;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+}
+
+.contact-me .container .content .text.animation-text {
+    animation: animationText 1s forwards;
+}
+
+@keyframes animationText {
+    from {
+        opacity: 0;
+        transform: translateX(-3rem);
+    }
+
+    to {
+        opacity: 100%;
+        transform: translateX(0);
+    }
+}
+
+.contact-me .container .content .text .breadcrumb {
+    background-color: rgb(0, 0, 0, 0);
+    margin-top: 1.5rem;
+    font-size: 1.1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.breadcrumb-item.breadcrumb-item::before {
+    color: #fff;
+}
+
+.contact-me .container .content .text .breadcrumb li a {
+    color: rgb(0, 195, 255);
+}
+
+.contact-me .container .content .text .breadcrumb li:nth-child(2) {
+    color: #fff;
+}
+
+
+.contact-me .container .content .the-form form {
+    padding: 1.5rem;
+    background-color: aliceblue;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 20px;
+}
+
+.contact-me .container .content .the-form form .row .col input {
+    background-color: rgba(0, 0, 0, 0);
+    border: 0;
+    border-bottom: 2px solid #007bff;
+    border-radius: 0;
+}
+
+.contact-me .container .content .the-form form .row .col input:focus {
+    box-shadow: 0px 0px 0px;
+}
+
+.contact-me .container .content .the-form form .row .col textarea {
+    background-color: rgba(0, 0, 0, 0);
+    border: 0;
+    border-bottom: 2px solid #007bff;
+    border-radius: 0;
+}
+
+.contact-me .container .content .the-form form .row .col textarea:focus {
+    box-shadow: 0px 0px 0px;
+}
+
+.contact-me .container .content .the-form form .button-send {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-me .container .content .the-form form .button-send .success {
+    color: rgb(0, 182, 97);
+    margin: auto;
+}
+
+.contact-me .container .content .the-form.animation-the-form {
+    animation: animationForm 1s forwards;
+}
+
+@keyframes animationForm {
+    from {
+        opacity: 0;
+        transform: translateX(3rem);
+    }
+
+    to {
+        opacity: 100%;
+        transform: translateX(0);
+    }
+}
+
+/* AKHIR CONTACT ME */

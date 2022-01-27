@@ -1,0 +1,255 @@
+/* NAVBAR */
+@keyframes showTheNavbar {
+    from {
+        transform: translateY(-4rem);
+    }
+
+    to {
+        transform: translateY(0);
+    }
+}
+/* AKHIR NAVBAR */
+
+/* HEADER */
+@keyframes titleHeader {
+    from {
+        opacity: 0;
+        transform: translateY(-3rem);
+    }
+
+    to {
+        opacity: 100%;
+        transform: translateY(0);
+    }
+}
+
+@keyframes sosmed {
+    from {
+        opacity: 0;
+        transform: translateY(3rem);
+    }
+
+    to {
+        opacity: 100%;
+        transform: translateY(0);
+    }
+}
+/* AKHIR HEADER */
+
+/* ABOUT ME */
+@keyframes titleAboutMe {
+    from {
+        opacity: 0;
+        transform: translateY(3rem);
+    }   
+    
+    to {
+        opacity: 100%;
+        transform: translateY(0);
+    }
+}
+
+@keyframes pAboutMe {
+    from {
+        opacity: 0;
+        transform: translateY(3rem);
+    }
+
+    to {
+        opacity: 100%;
+        transform: translateY(0);
+    }
+}
+
+@keyframes buttonCV {
+    from {
+        opacity: 0;
+        transform: translateX(-5rem);
+    }
+
+    to {
+        opacity: 100%;
+        transform: translateX(0);
+    }
+}
+
+@keyframes buttonContactMe {
+    from {
+        opacity: 0;
+        transform: translateX(5rem);
+    }
+
+    to {
+        opacity: 100%;
+        transform: translateX(0);
+    }
+}
+/* AKHIR ABOUT ME */
+
+
+/* MY SERVICES */
+@keyframes titleMyServices {
+    from {
+        opacity: 0;
+        transform: translateY(3rem);
+    }
+
+    to {
+        opacity: 100%;
+        transform: translateY(0);
+    }
+}
+
+@keyframes graphicDesign {
+    from {
+        opacity: 0;
+        transform: translateY(3rem);
+    }
+
+    to {
+        opacity: 100%;
+        transform: translateY(0);
+    }
+}
+
+@keyframes videoEditting {
+    from {
+        opacity: 0;
+        transform: translateY(3rem);
+    }
+
+    to {
+        opacity: 100%;
+        transform: translateY(0);
+    }
+}
+
+@keyframes webDesign {
+    from {
+        opacity: 0;
+        transform: translateY(3rem);
+    }
+
+    to {
+        opacity: 100%;
+        transform: translateY(0);
+    }
+}
+/* AKHIR MY SERVICES */
+
+
+/* PROJECT */
+@keyframes titleProjects {
+    from {
+        opacity: 0;
+        transform: translateY(3rem);
+    }
+
+    to {
+        opacity: 100%;
+        transform: translateY(0);
+    }
+}
+
+@keyframes project {
+    from {
+        opacity: 0;
+        transform: translateY(3rem);
+    }
+
+    to {
+        opacity: 100%;
+        transform: translateY(0);
+    }
+}
+/* AKHIR PROJECT */
+
+
+/* ADVERTISEMENT */
+@keyframes showPopup {
+    from {
+        opacity: 0;
+        transform: scale(0);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+/* AKHIR ADVERTISEMENT */
+
+
+/* SEARCH */
+@keyframes search {
+    from {
+        transform: translateY(-50rem);
+    }
+
+    to {
+        transform: translateY(0)
+    }
+}
+
+@keyframes close {
+    from {
+        transform: translateY(0)
+    }
+    
+    to {
+        transform: translateY(-50rem);
+    }
+}
+/* AKHIR SEARCH */
+
+
+/* NAVBAR RESPONSIVE */
+@keyframes showNavbar {
+    from {
+        transform: translateX(-80rem);
+    }
+    
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes navlinks {
+    from {
+        opacity: 0;
+        transform: translateX(-80rem);
+    }
+
+    to {
+        opacity: 100%;
+        transform: translateX(0);
+    }
+}
+
+/* AKHIR NAVBAR RESPONSIVE */
+
+
+/* MODAL PROJECT */
+@keyframes showModal {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 100%;
+    }
+}
+/* AKHIR MODAL PROJECT */
+
+
+/* PROJECTS IMAGES */
+@keyframes showImage {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 100%;
+    }
+}
+/* AKHIR PROJECTS IMAGES */

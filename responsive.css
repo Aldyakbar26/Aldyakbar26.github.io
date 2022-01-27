@@ -1,0 +1,501 @@
+/* // Extra small devices (portrait phones, less than 576px) */
+/* // No media query for `xs` since this is the default in Bootstrap */
+
+/* Potrait Phone */
+@media (max-width: 576px) {
+
+    /* NAVBAR */
+    .navbar {
+        padding: 1rem 1.2rem;
+    }
+
+    .navbar-light .navbar-toggler {
+        border: 0;
+        padding: 0;
+        margin-left: auto;
+        margin-right: 1rem;
+    }
+
+    .navbar-responsive {
+        width: 100%;
+        height: 100vh;
+        background-color: #001f41;
+        position: fixed;
+        z-index: 2;
+        display: none;
+        padding: 1.2rem 2rem;
+    }
+
+    .navbar-responsive .icon-close {
+        position: relative;
+    }
+
+    .navbar-responsive .icon-close .fas {
+        position: absolute;
+        top: 0;
+        right: 0;
+        color: #fff;
+        font-size: 2.5rem;
+        cursor: pointer;
+    }
+
+    .navbar-responsive .text-navlinks {
+        margin-top: 10rem;
+    }
+
+    .navbar-responsive .text-navlinks a {
+        display: block;
+        color: #fff;
+        text-align: center;
+        margin-top: 5rem;
+        font-family: roboto, sans-serif;
+    }
+
+    .navbar-responsive .text-navlinks a:hover {
+        text-decoration: none;
+    }
+
+    .navbar-responsive .text-navlinks a:active {
+        color: #007bff;
+    }
+
+    .navbar-responsive.animation-navbar {
+        animation: showNavbar 1s cubic-bezier(0.34, 0.02, 0, 0.98) forwards;
+    }
+
+    .navbar-responsive .text-navlinks a.about.animation-about,
+    .navbar-responsive .text-navlinks a.project.animation-project,
+    .navbar-responsive .text-navlinks a.testimonials.animation-testimonials,
+    .navbar-responsive .text-navlinks a.contact.animation-contact {
+        animation: navlinks 1s cubic-bezier(0.34, 0.02, 0, 0.98) forwards;
+    }
+
+
+    /* AKHIR NAVBAR */
+
+
+    /* JUMBOTRON */
+    .jumbotron .container {
+        padding: 0 1.5rem;
+        margin-top: 4.5rem;
+    }
+
+    .jumbotron .container .title-header h1 {
+        font-size: 1.6rem;
+    }
+
+    .jumbotron .container .title-header .lead {
+        font-size: 1rem;
+    }
+
+    /* AKHIR JUMBOTRON */
+
+
+    /* PROJECTS */
+    .my-projects .container .the-projects .project-2,
+    .my-projects .container .the-projects .project-3,
+    .my-projects .container .the-projects .project-4 {
+        margin-top: 2.5rem;
+    }
+
+    /* AKHIR PROJECTS */
+
+
+    /* CALL TO ACTION */
+    .call-to-action {
+        padding: 0 1.5rem;
+    }
+
+    .call-to-action .container .text-left h2 {
+        font-size: 1.7rem;
+    }
+
+    /* AKHIR CALL TO ACTION */
+
+
+    /* SWIPER */
+    .testimonials .container {
+        padding: 0 1.2rem;
+    }
+
+    .testimonials .container .swiper .swiper-wrapper .swiper-slide .testimonials-1,
+    .testimonials .container .swiper .swiper-wrapper .swiper-slide .testimonials-2,
+    .testimonials .container .swiper .swiper-wrapper .swiper-slide .testimonials-3,
+    .testimonials .container .swiper .swiper-wrapper .swiper-slide .testimonials-4 {
+        background-color: aliceblue;
+        padding: 1.5rem;
+        width: 100%;
+        border-radius: 1rem;
+    }
+
+    /* AKHIR SWIPER */
+
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+    /* NAVBAR */
+    .navbar {
+        padding: 1rem 1.2rem;
+    }
+
+    .navbar-light .navbar-toggler {
+        border: 0;
+        padding: 0;
+        margin-left: auto;
+        margin-right: 1rem;
+    }
+
+    .navbar-responsive {
+        width: 100%;
+        height: 100vh;
+        background-color: #001f41;
+        position: fixed;
+        z-index: 2;
+        display: none;
+        padding: 1.2rem 2rem;
+    }
+
+    .navbar-responsive .icon-close {
+        position: relative;
+    }
+
+    .navbar-responsive .icon-close .fas {
+        position: absolute;
+        top: 0;
+        right: 0;
+        color: #fff;
+        font-size: 2.5rem;
+        cursor: pointer;
+    }
+
+    .navbar-responsive .text-navlinks {
+        margin-top: 10rem;
+    }
+
+    .navbar-responsive .text-navlinks a {
+        display: block;
+        color: #fff;
+        text-align: center;
+        margin-top: 5rem;
+        font-family: roboto, sans-serif;
+    }
+
+    .navbar-responsive .text-navlinks a:hover {
+        text-decoration: none;
+    }
+
+    .navbar-responsive .text-navlinks a:active {
+        color: #007bff;
+    }
+
+    .navbar-responsive.animation-navbar {
+        animation: showNavbar 1s cubic-bezier(0.34, 0.02, 0, 0.98) forwards;
+    }
+
+    /* AKHIR NAVBAR */
+
+
+    /* JUMBOTRON */
+    .jumbotron .container {
+        padding: 0 1.5rem;
+    }
+
+    .jumbotron .container .title-header h1 {
+        font-size: 1.8rem;
+    }
+
+    .jumbotron .container .title-header .lead {
+        font-size: 1rem;
+    }
+
+    /* AKHIR JUMBOTRON */
+
+
+    /* SWIPER */
+    .testimonials .container .swiper .swiper-wrapper .swiper-slide .testimonials-1,
+    .testimonials .container .swiper .swiper-wrapper .swiper-slide .testimonials-2,
+    .testimonials .container .swiper .swiper-wrapper .swiper-slide .testimonials-3,
+    .testimonials .container .swiper .swiper-wrapper .swiper-slide .testimonials-4 {
+        background-color: aliceblue;
+        padding: 1.5rem;
+        width: 90%;
+        border-radius: 1rem;
+    }
+
+    /* AKHIR SWIPER */
+
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+    /* SKILLS */
+    .my-skills .container .row .col-md-4 .video-editting .icon .fas,
+    .my-skills .container .row .col-md-4 .web-designer .icon .fab {
+        margin-top: 0;
+    }
+
+    /* AKHIR SKILLS */
+
+
+    /* PROJECTS */
+    .my-projects .container {
+        padding: 0;
+    }
+
+    /* AKHIR PROJECTS */
+
+
+    /* SWIPER */
+    .testimonials .container .swiper .swiper-wrapper .swiper-slide .testimonials-1,
+    .testimonials .container .swiper .swiper-wrapper .swiper-slide .testimonials-2,
+    .testimonials .container .swiper .swiper-wrapper .swiper-slide .testimonials-3,
+    .testimonials .container .swiper .swiper-wrapper .swiper-slide .testimonials-4 {
+        background-color: aliceblue;
+        padding: 1.5rem;
+        width: 70%;
+        border-radius: 1rem;
+    }
+
+    .swiper-button-next:after {
+        transform: scale(.8);
+        padding: 1rem;
+        display: contents;
+    }
+
+    .swiper-button-prev::after {
+        transform: scale(.8);
+        padding: 1rem;
+        display: contents;
+    }
+
+    /* AKHIR SWIPER */
+
+    /* IKLAN */
+    .pop-up .advertisement {
+        width: 35rem;
+        height: 16rem;
+        margin: 13rem auto;
+        display: flex;
+        position: relative;
+    }
+
+    .pop-up .advertisement #carouselExampleFade button {
+        transform: scale(1.5);
+        margin-top: 5rem;
+    }
+
+    /* AKHIR IKLAN */
+
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+    /* NAVBAR */
+    .navbar {
+        padding: 0.7rem 0;
+    }
+
+    .navbar .container .collapse .navbar-nav .nav-link {
+        margin-top: 0;
+    }
+
+    .navbar .container .collapse .navbar-nav .nav-link.about,
+    .navbar .container .collapse .navbar-nav .nav-link.skills,
+    .navbar .container .collapse .navbar-nav .nav-link.projects,
+    .navbar .container .collapse .navbar-nav .nav-link.testimonials,
+    .navbar .container .collapse .navbar-nav .nav-link.contact {
+        margin-right: 1rem !important;
+    }
+
+    .navbar .container .collapse .navbar-nav .nav-link:hover {
+        color: #007bff;
+    }
+
+    /* AKHIR NAVBAR */
+
+
+    /* JUMBOTRON */
+    .jumbotron .container .title-header .button-started .btn:hover {
+        border-radius: 24px;
+        background-color: #fff;
+        color: rgba(30, 39, 107, 1);
+    }
+
+    .jumbotron .container .my-sosmed a {
+        margin: 0 .5rem;
+        font-size: 1.5rem;
+        color: #fff;
+        text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+    }
+
+    .jumbotron .container .my-sosmed a:hover {
+        color: rgb(0, 183, 255);
+    }
+
+    .jumbotron .container .title-header h1 {
+        font-size: 2.5rem;
+    }
+
+    .jumbotron .container .title-header .lead {
+        font-size: 1.3rem;
+    }
+
+    /* AKHIR JUMBOTRON */
+
+
+    /* ABOUT ME */
+    .about-me .container p {
+        padding: 0;
+        text-align: center;
+        width: 50%;
+        margin: 2.7rem auto;
+        opacity: 0;
+    }
+
+    .about-me .container .button-about-me .button-cv .btn:hover {
+        background-color: #007bff;
+    }
+
+    .about-me .container .button-about-me .button-contact-me .btn:hover {
+        background-color: #007bff;
+    }
+
+    /* AKHIR ABOUT ME */
+
+
+    /* MY SKILLS */
+    .my-skills {
+        padding: 4rem 0;
+        background-color: aliceblue;
+        margin-top: 4.6rem;
+    }
+
+    .my-skills .container .row .col-md-4 .video-editting .icon .fas,
+    .my-skills .container .row .col-md-4 .web-designer .icon .fab {
+        margin-top: 0;
+    }
+
+    /* AKHIR MY SKILLS */
+
+
+    /* PROJECTS */
+    .my-projects .container {
+        padding: 0;
+    }
+
+    .my-projects .container .the-projects .project-1,
+    .my-projects .container .the-projects .project-2,
+    .my-projects .container .the-projects .project-3,
+    .my-projects .container .the-projects .project-4 {
+        width: 80%;
+        margin: 0 auto;
+        background-color: #007bff;
+        overflow: hidden;
+        border-radius: 1rem;
+        opacity: 0;
+    }
+
+    .my-projects .container .the-projects .project-2,
+    .my-projects .container .the-projects .project-3,
+    .my-projects .container .the-projects .project-4 {
+        margin-top: 4.3rem;
+    }
+
+    .my-projects .container .the-projects .description-project-1,
+    .my-projects .container .the-projects .description-project-2,
+    .my-projects .container .the-projects .description-project-3,
+    .my-projects .container .the-projects .description-project-4 {
+        display: flex;
+        gap: 1.5rem;
+        margin-top: 1.3rem;
+        margin-left: 7.2rem;
+    }
+
+    /* AKHIR PROJECTS */
+
+
+    /* CALL TO ACTION */
+    .call-to-action .container {
+        background-color: aliceblue;
+        margin-top: 4.3rem;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        align-items: center;
+        padding: 2rem 2.5rem;
+        border-radius: 1rem;
+        box-shadow: rgba(0, 69, 148, 0.2) 0px 2px 8px 0px;
+    }
+
+    .call-to-action .container .buttons {
+        margin-top: 0;
+        display: flex;
+        gap: 1.5rem;
+    }
+
+    .call-to-action .container .buttons .button-email-me .btn:hover {
+        background-color: rgba(30, 39, 107, 1);
+        border: 1px solid rgba(30, 39, 107, 1);
+    }
+
+    /* AKHIR CALL TO ACTION */
+
+
+    /* SWIPER */
+    .testimonials .container .swiper .swiper-wrapper .swiper-slide .testimonials-1,
+    .testimonials .container .swiper .swiper-wrapper .swiper-slide .testimonials-2,
+    .testimonials .container .swiper .swiper-wrapper .swiper-slide .testimonials-3,
+    .testimonials .container .swiper .swiper-wrapper .swiper-slide .testimonials-4 {
+        background-color: aliceblue;
+        padding: 1.5rem;
+        width: 45%;
+        border-radius: 1rem;
+    }
+
+    .swiper-button-next::after {
+        transform: scale(10) !important;
+        display: contents;
+    }
+
+    .swiper-button-prev::after {
+        display: contents;
+    }
+
+    /* AKHIR SWIPER */
+
+
+    /* IKLAN */
+    .pop-up .advertisement {
+        width: 50rem;
+        height: 30rem;
+        background-color: #fff;
+        margin: 10rem auto;
+        border-radius: 24px;
+        display: flex;
+        position: relative;
+    }
+
+    .pop-up .advertisement #carouselExampleFade button {
+        transform: scale(1.5);
+        margin-top: 0;
+    }
+
+    /* AKHIR IKLAN */
+
+
+    /* SEARCH */
+    .background-search .container input[placeholder] {
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    /* AKHIR SEARCH */
+
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
