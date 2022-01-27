@@ -113,7 +113,7 @@ h6 {
 /* ABOUT US */
 .about-me .container {
     text-align: center;
-    margin-top: 4.3rem;
+    margin-top: 2rem;
 }
 
 .about-me .container p {
@@ -534,7 +534,16 @@ h6 {
     position: relative;
 }
 
+.carousel-control-next-icon {
+    margin-left: -2rem;
+}
+
+.carousel-control-prev-icon {
+    margin-left: 2rem;
+}
+
 .pop-up .advertisement #carouselExampleFade .carousel-inner .carousel-item img {
+    transform: scale(.9);
     border-radius: 20px;
 }
 
@@ -556,12 +565,13 @@ h1 {
     border-radius: 100%;
     background-color: #fff;
     position: absolute;
-    top: -15px;
-    right: -15px;
+    top: 0;
+    right: 0;
     border: 5px solid #fff;
     display: flex;
     cursor: pointer;
     z-index: 2;
+    transform: scale(.8);
 }
 
 .pop-up .close .fas {
@@ -647,6 +657,7 @@ h1 {
     margin-top: 10rem;
     padding: 1.2rem;
     text-align: center;
+    transform: scale(.8);
 }
 
 
@@ -667,3 +678,13 @@ h1 {
     animation: showModal .5s forwards;
 }
 /* AKHIR MODAL PROJECTS FOR VISIT WEB */
+
+
+/* FOOTER */
+.footer .container .isi-footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+}
+/* AKHIR FOOTER */

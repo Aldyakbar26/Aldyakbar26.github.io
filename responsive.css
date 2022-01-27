@@ -107,7 +107,7 @@
     }
 
     .call-to-action .container .text-left h2 {
-        font-size: 1.7rem;
+        font-size: 1.5rem;
     }
 
     /* AKHIR CALL TO ACTION */
@@ -226,6 +226,18 @@
 
     /* AKHIR SWIPER */
 
+
+    /* CALL TO ACTION */
+    .call-to-action {
+        padding: 0 1.5rem;
+    }
+
+    .call-to-action .container .text-left h2 {
+        font-size: 1.5rem;
+    }
+
+    /* AKHIR CALL TO ACTION */
+
 }
 
 /* // Medium devices (tablets, 768px and up) */
@@ -273,6 +285,7 @@
 
     /* AKHIR SWIPER */
 
+
     /* IKLAN */
     .pop-up .advertisement {
         width: 35rem;
@@ -288,6 +301,17 @@
     }
 
     /* AKHIR IKLAN */
+
+
+    .background-modal .container .row .col .background-modal-2 {
+        width: 25rem;
+        background-color: #fff;
+        border-radius: 12px;
+        margin-top: 10rem;
+        padding: 1.2rem;
+        text-align: center;
+        transform: scale(1);
+    }
 
 }
 
@@ -348,6 +372,12 @@
 
 
     /* ABOUT ME */
+
+    .about-me .container {
+        text-align: center;
+        margin-top: 4.3rem;
+    }
+
     .about-me .container p {
         padding: 0;
         text-align: center;
@@ -484,6 +514,34 @@
         margin-top: 0;
     }
 
+    .carousel-control-next-icon {
+        margin-left: 0;
+    }
+    
+    .carousel-control-prev-icon {
+        margin-left: 0;
+    }
+
+    .pop-up .advertisement #carouselExampleFade .carousel-inner .carousel-item img {
+        transform: scale(1);
+        border-radius: 20px;
+    }
+
+    .pop-up .close {
+        width: 3rem;
+        height: 3rem;
+        border-radius: 100%;
+        background-color: #fff;
+        position: absolute;
+        top: -15px;
+        right: -15px;
+        border: 5px solid #fff;
+        display: flex;
+        cursor: pointer;
+        z-index: 2;
+        transform: scale(1);
+    }
+
     /* AKHIR IKLAN */
 
 
@@ -494,6 +552,31 @@
     }
 
     /* AKHIR SEARCH */
+
+
+    /* MODAL PROJECT FOR VISIT WEBSITE */
+    .background-modal .container .row .col .background-modal-2 {
+        width: 25rem;
+        background-color: #fff;
+        border-radius: 12px;
+        margin-top: 10rem;
+        padding: 1.2rem;
+        text-align: center;
+        transform: scale(1);
+    }
+
+    /* AKHIR MODAL PROJECT FOR VISIT WEBSITE */
+
+
+    /* FOOTER */
+    .footer .container .isi-footer {
+        display: flex;
+        flex-direction: row;
+        text-align: left;
+        gap: 1rem;
+    }
+
+    /* AKHIR FOOTER */
 
 }
 
