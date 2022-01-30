@@ -1,8 +1,7 @@
 /* // Extra small devices (portrait phones, less than 576px) */
 /* // No media query for `xs` since this is the default in Bootstrap */
 
-/* Potrait Phone */
-@media (max-width: 576px) {
+@media (min-width: 345px) {
 
     /* NAVBAR */
     .navbar {
@@ -21,7 +20,7 @@
         height: 100vh;
         background-color: #001f41;
         position: fixed;
-        z-index: 2;
+        z-index: 5;
         display: none;
         padding: 1.2rem 2rem;
     }
@@ -70,7 +69,6 @@
         animation: navlinks 1s cubic-bezier(0.34, 0.02, 0, 0.98) forwards;
     }
 
-
     /* AKHIR NAVBAR */
 
 
@@ -81,17 +79,29 @@
     }
 
     .jumbotron .container .title-header h1 {
-        font-size: 1.6rem;
+        font-size: 1.5rem;
     }
 
     .jumbotron .container .title-header .lead {
-        font-size: 1rem;
+        font-size: .9rem;
+        margin-top: .5rem;
     }
 
     /* AKHIR JUMBOTRON */
 
 
     /* PROJECTS */
+    .my-projects .container .the-projects .project-1,
+    .my-projects .container .the-projects .project-2,
+    .my-projects .container .the-projects .project-3,
+    .my-projects .container .the-projects .project-4 {
+        width: 100%;
+        margin: 0 auto;
+        background-color: #007bff;
+        overflow: hidden;
+        border-radius: 1rem;
+    }
+
     .my-projects .container .the-projects .project-2,
     .my-projects .container .the-projects .project-3,
     .my-projects .container .the-projects .project-4 {
@@ -107,7 +117,12 @@
     }
 
     .call-to-action .container .text-left h2 {
-        font-size: 1.5rem;
+        font-size: 1rem;
+    }
+
+    .call-to-action .container .buttons .button-email-me {
+        transform: scale(.8);
+        margin-top: -.8rem;
     }
 
     /* AKHIR CALL TO ACTION */
@@ -130,6 +145,71 @@
 
     /* AKHIR SWIPER */
 
+
+    /* VISIT WEBSITE */
+    .background-modal .container .row .col .background-modal-2 {
+        width: 100%;
+        background-color: #fff;
+        border-radius: 12px;
+        margin-top: 10rem;
+        padding: 1.2rem;
+        text-align: center;
+        transform: scale(.8);
+    }
+
+    /* AKHIR VISIT WEBSITE */
+
+    /* IKLAN */
+    .pop-up .advertisement {
+        width: 100%;
+        margin: 15rem auto;
+        border-radius: 24px;
+        display: flex;
+        position: relative;
+    }
+
+    .pop-up .close {
+        width: 3rem;
+        height: 3rem;
+        border-radius: 100%;
+        background-color: #fff;
+        position: absolute;
+        top: 0;
+        right: .3rem;
+        border: 5px solid #fff;
+        display: flex;
+        cursor: pointer;
+        z-index: 2;
+        transform: scale(.7);
+    }
+
+    /* AKHIR IKLAN */
+
+}
+
+@media (min-width: 400px) {
+    .call-to-action .container .text-left h2 {
+        font-size: 1.3rem;
+    }
+
+    /* VISIT WEBSITE */
+
+    .background-modal .container .row .col .background-modal-2 {
+        width: 25rem;
+        background-color: #fff;
+        border-radius: 12px;
+        margin-top: 10rem;
+        padding: 1.2rem;
+        text-align: center;
+        transform: scale(.8);
+    }
+
+    /* AKHIR VISIT WEBSITE */
+
+    .call-to-action .container .buttons .button-email-me {
+        transform: scale(.9);
+        margin-top: -.5rem;
+    }
 }
 
 /* // Small devices (landscape phones, 576px and up) */
@@ -152,7 +232,7 @@
         height: 100vh;
         background-color: #001f41;
         position: fixed;
-        z-index: 2;
+        z-index: 5;
         display: none;
         padding: 1.2rem 2rem;
     }
@@ -192,7 +272,16 @@
 
     .navbar-responsive.animation-navbar {
         animation: showNavbar 1s cubic-bezier(0.34, 0.02, 0, 0.98) forwards;
+        z-index: 8;
     }
+
+    .navbar-responsive .text-navlinks a.about.animation-about,
+    .navbar-responsive .text-navlinks a.project.animation-project,
+    .navbar-responsive .text-navlinks a.testimonials.animation-testimonials,
+    .navbar-responsive .text-navlinks a.contact.animation-contact {
+        animation: navlinks 1s cubic-bezier(0.34, 0.02, 0, 0.98) forwards;
+    }
+
 
     /* AKHIR NAVBAR */
 
@@ -200,6 +289,7 @@
     /* JUMBOTRON */
     .jumbotron .container {
         padding: 0 1.5rem;
+        margin-top: 4.5rem;
     }
 
     .jumbotron .container .title-header h1 {
@@ -213,18 +303,15 @@
     /* AKHIR JUMBOTRON */
 
 
-    /* SWIPER */
-    .testimonials .container .swiper .swiper-wrapper .swiper-slide .testimonials-1,
-    .testimonials .container .swiper .swiper-wrapper .swiper-slide .testimonials-2,
-    .testimonials .container .swiper .swiper-wrapper .swiper-slide .testimonials-3,
-    .testimonials .container .swiper .swiper-wrapper .swiper-slide .testimonials-4 {
-        background-color: aliceblue;
-        padding: 1.5rem;
-        width: 90%;
-        border-radius: 1rem;
+    /* PROJECTS */
+
+    .my-projects .container .the-projects .project-2,
+    .my-projects .container .the-projects .project-3,
+    .my-projects .container .the-projects .project-4 {
+        margin-top: 2.5rem;
     }
 
-    /* AKHIR SWIPER */
+    /* AKHIR PROJECTS */
 
 
     /* CALL TO ACTION */
@@ -237,6 +324,70 @@
     }
 
     /* AKHIR CALL TO ACTION */
+
+
+    /* SWIPER */
+    .testimonials .container {
+        padding: 0 1.2rem;
+    }
+
+    .testimonials .container .swiper .swiper-wrapper .swiper-slide .testimonials-1,
+    .testimonials .container .swiper .swiper-wrapper .swiper-slide .testimonials-2,
+    .testimonials .container .swiper .swiper-wrapper .swiper-slide .testimonials-3,
+    .testimonials .container .swiper .swiper-wrapper .swiper-slide .testimonials-4 {
+        background-color: aliceblue;
+        padding: 1.5rem;
+        width: 100%;
+        border-radius: 1rem;
+    }
+
+    /* AKHIR SWIPER */
+
+
+    /* IKLAN */
+    .pop-up .advertisement {
+        width: 100%;
+        margin: 15rem auto;
+        border-radius: 24px;
+        display: flex;
+        position: relative;
+    }
+
+    .pop-up .close {
+        width: 3rem;
+        height: 3rem;
+        border-radius: 100%;
+        background-color: #fff;
+        position: absolute;
+        top: 0;
+        right: .8rem;
+        border: 5px solid #fff;
+        display: flex;
+        cursor: pointer;
+        z-index: 2;
+        transform: scale(.8);
+    }
+
+    /* AKHIR IKLAN */
+
+    /* VISIT WEBSITE */
+
+    .background-modal .container .row .col .background-modal-2 {
+        width: 25rem;
+        background-color: #fff;
+        border-radius: 12px;
+        margin-top: 10rem;
+        padding: 1.2rem;
+        text-align: center;
+        transform: scale(1);
+    }
+
+    /* AKHIR VISIT WEBSITE */
+
+    .call-to-action .container .buttons .button-email-me {
+        transform: scale(1);
+    }
+
 
 }
 
@@ -302,6 +453,7 @@
 
     /* AKHIR IKLAN */
 
+    /* VISIT WEBSITE */
 
     .background-modal .container .row .col .background-modal-2 {
         width: 25rem;
@@ -310,6 +462,12 @@
         margin-top: 10rem;
         padding: 1.2rem;
         text-align: center;
+        transform: scale(1);
+    }
+
+    /* AKHIR VISIT WEBSITE */
+
+    .call-to-action .container .buttons .button-email-me {
         transform: scale(1);
     }
 
@@ -380,6 +538,7 @@
 
     .about-me .container p {
         padding: 0;
+        font-size: 1rem;
         text-align: center;
         width: 50%;
         margin: 2.7rem auto;
@@ -426,7 +585,6 @@
         background-color: #007bff;
         overflow: hidden;
         border-radius: 1rem;
-        opacity: 0;
     }
 
     .my-projects .container .the-projects .project-2,
@@ -465,6 +623,10 @@
         margin-top: 0;
         display: flex;
         gap: 1.5rem;
+    }
+
+    .call-to-action .container .text-left h2 {
+        font-size: 1.5rem;
     }
 
     .call-to-action .container .buttons .button-email-me .btn:hover {
@@ -517,7 +679,7 @@
     .carousel-control-next-icon {
         margin-left: 0;
     }
-    
+
     .carousel-control-prev-icon {
         margin-left: 0;
     }

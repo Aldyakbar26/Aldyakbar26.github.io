@@ -29,15 +29,6 @@ console.log(titleProject)
 const project1 = document.querySelector('.my-projects .container .the-projects .project-1');
 console.log(project1)
 
-const project2 = document.querySelector('.my-projects .container .the-projects .project-2');
-console.log(project2)
-
-const project3 = document.querySelector('.my-projects .container .the-projects .project-3');
-console.log(project3)
-
-const project4 = document.querySelector('.my-projects .container .the-projects .project-4');
-console.log(project4)
-
 
 window.addEventListener('scroll', () => {
 
@@ -76,18 +67,6 @@ window.addEventListener('scroll', () => {
 
     if (scroll > 852) {
         project1.classList.add('animtion-project-1')
-    }
-
-    if (scroll > 1448) {
-        project2.classList.add('animtion-project-2')
-    }
-
-    if (scroll > 2035) {
-        project3.classList.add('animtion-project-3')
-    }
-
-    if (scroll > 2630) {
-        project4.classList.add('animtion-project-4')
     }
 
 });
