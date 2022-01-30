@@ -110,17 +110,6 @@ a {
     box-shadow: 0px 0px 0px;
 }
 
-.contact-me .container .content .the-form form .button-send {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.contact-me .container .content .the-form form .button-send .success {
-    color: rgb(0, 182, 97);
-    margin: auto;
-}
-
 .contact-me .container .content .the-form.animation-the-form {
     animation: animationForm 1s forwards;
 }

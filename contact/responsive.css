@@ -1,11 +1,25 @@
-/* // Extra small devices (portrait phones, less than 576px)
-// No media query for `xs` since this is the default in Bootstrap */
+@media (min-width: 345px) {
+    .contact-me .container .content .text h1 {
+        font-size: 2rem;
+    }
 
-/* // Small devices (Potrait phones) */
-@media (max-width: 576px) {}
+
+    .contact-me .container .content .the-form form .button-send .btn {
+        width: 100%;
+    }
+}
 
 /* // Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {}
+@media (min-width: 576px) {
+    .contact-me .container .content .text h1 {
+        font-size: 2.5rem;
+    }
+
+    .contact-me .container .content .the-form form .button-send .btn {
+        width: 100%;
+        padding: .6rem 0;
+    }
+}
 
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {}

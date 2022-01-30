@@ -5,7 +5,7 @@ const success = document.querySelector('.contact-me .container .content .the-for
 console.log(success);
 
 submit.addEventListener('click', function () {
-    success.textContent = 'Your message has been sent.'
+    alert('your message has been sent. Thank you :)')
 });
 
 const text = document.querySelector('.contact-me .container .content .text');
